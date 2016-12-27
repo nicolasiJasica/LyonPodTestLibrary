@@ -1,0 +1,14 @@
+PODS:
+  - LyonPodTestLibrary (0.1.0)
+
+DEPENDENCIES:
+  - LyonPodTestLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  LyonPodTestLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LyonPodTestLibrary: 74c91936fe482c9f18c49c502e5919f464a7affb
+
+COCOAPODS: 0.39.0

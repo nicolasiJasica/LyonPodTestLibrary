@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26265545879D6A16EE54C0A8799B77CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4663625F4370C66E5FCF836A787EFC77 /* NSString+SpeakToMe.h in Headers */ = {isa = PBXBuildFile; fileRef = 1168FD301D1FCF154E3A6DF5D1213406 /* NSString+SpeakToMe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E70862250B450C2F0879898EFCD2084 /* LyonPodTestLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95508A459A2F77D303A8AFDC06CB1EAC /* LyonPodTestLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53CEB2F37B292E1640A50A074046C6F4 /* Pods-LyonPodTestLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D955DAC73C2318F6551722036083C039 /* Pods-LyonPodTestLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54CEB44D678D9029F52B0672E67A3509 /* Pods-LyonPodTestLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5660C3FBCE41BCDDA8B73EF3009236EE /* Pods-LyonPodTestLibrary_Example-dummy.m */; };
+		60CBA942325594222AC098247A1FCD1E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA44818ED53FE5ACC3FB119887D9A04 /* ReplaceMe.m */; };
+		CB2D063650E1E709740A07840154F5D8 /* LyonPodTestLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D092EE7B429EB0E98F68656B6F06F6FF /* LyonPodTestLibrary-dummy.m */; };
+		DFA653FDDDD6433C1C62E87945AD4EC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FB2BA7A784E27EC397E7CCBD19FA98B2 /* NSString+SpeakToMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 892A6CD4FE74DD5D5E0726B867765910 /* NSString+SpeakToMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF49915B05788837E3253DAE60C5C272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DB2E3BC3A3DDB663136C4504F5BB7FA;
+			remoteInfo = LyonPodTestLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC438EB8335F2DA402EDAE5E71BDF3F /* Pods-LyonPodTestLibrary_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LyonPodTestLibrary_Example.modulemap"; sourceTree = "<group>"; };
+		1168FD301D1FCF154E3A6DF5D1213406 /* NSString+SpeakToMe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+SpeakToMe.h"; sourceTree = "<group>"; };
+		2BC838009BB6A80F9F988D414A6A8A65 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1ED6A6CE4203DB389F4659FCA1BCCF /* LyonPodTestLibrary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LyonPodTestLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4BF4C69478B179597F862BA5E5535CDE /* Pods-LyonPodTestLibrary_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LyonPodTestLibrary_Example-resources.sh"; sourceTree = "<group>"; };
+		5660C3FBCE41BCDDA8B73EF3009236EE /* Pods-LyonPodTestLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LyonPodTestLibrary_Example-dummy.m"; sourceTree = "<group>"; };
+		56B28F21F8F65845B7106CDC2B0118E9 /* LyonPodTestLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LyonPodTestLibrary-prefix.pch"; sourceTree = "<group>"; };
+		602CF6697C8CF84532DBD4AD68ECA5E2 /* LyonPodTestLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LyonPodTestLibrary.modulemap; sourceTree = "<group>"; };
+		74661B6763926F64BCFCD7327555F92D /* Pods-LyonPodTestLibrary_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LyonPodTestLibrary_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		793A075A7E3314937BB07A5073787BC2 /* Pods-LyonPodTestLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LyonPodTestLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
+		892A6CD4FE74DD5D5E0726B867765910 /* NSString+SpeakToMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+SpeakToMe.m"; sourceTree = "<group>"; };
+		95508A459A2F77D303A8AFDC06CB1EAC /* LyonPodTestLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LyonPodTestLibrary-umbrella.h"; sourceTree = "<group>"; };
+		9CA44818ED53FE5ACC3FB119887D9A04 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		A75BF288153D28C086D748CA46A0FEE0 /* Pods_LyonPodTestLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyonPodTestLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4B647529E10BF4B89E1B4DB2B9E3C86 /* Pods-LyonPodTestLibrary_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LyonPodTestLibrary_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C1989896BB6BBA6DBB72A802BB00DE3A /* Pods-LyonPodTestLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LyonPodTestLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D092EE7B429EB0E98F68656B6F06F6FF /* LyonPodTestLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LyonPodTestLibrary-dummy.m"; sourceTree = "<group>"; };
+		D6E2AB83A402B788FD3AA12E38DAF252 /* LyonPodTestLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LyonPodTestLibrary.xcconfig; sourceTree = "<group>"; };
+		D955DAC73C2318F6551722036083C039 /* Pods-LyonPodTestLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LyonPodTestLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
+		D9C15556F8AFB88286A20D80B5006B98 /* Pods-LyonPodTestLibrary_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LyonPodTestLibrary_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8417091199847DAC3F9114D428547F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3463287A67F2EC4B377533192EA715AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26265545879D6A16EE54C0A8799B77CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C3A96D947D37D62A675B27640EBE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA653FDDDD6433C1C62E87945AD4EC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E775145A872A264EC056423EDED9EFA /* LyonPodTestLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				4C5BF0670F37575ACC41CD9AA30AE501 /* LyonPodTestLibrary */,
+				FD03BB540E92CD503254167B5E3B071A /* Support Files */,
+			);
+			name = LyonPodTestLibrary;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		36BBF3FFD8DD4D55ED6E7626E524CCC0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1168FD301D1FCF154E3A6DF5D1213406 /* NSString+SpeakToMe.h */,
+				892A6CD4FE74DD5D5E0726B867765910 /* NSString+SpeakToMe.m */,
+				9CA44818ED53FE5ACC3FB119887D9A04 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4C5BF0670F37575ACC41CD9AA30AE501 /* LyonPodTestLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				36BBF3FFD8DD4D55ED6E7626E524CCC0 /* Classes */,
+			);
+			path = LyonPodTestLibrary;
+			sourceTree = "<group>";
+		};
+		72A54E2328FC9A8D14ABBAC826600128 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3890F122B6F4994E9D02D42E9C994B6 /* Pods-LyonPodTestLibrary_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A99A80724919FFCA78B3BE1EA1F4251C /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DC302DA56324B52FA05C734C901BDA6B /* Products */,
+				72A54E2328FC9A8D14ABBAC826600128 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3890F122B6F4994E9D02D42E9C994B6 /* Pods-LyonPodTestLibrary_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2BC838009BB6A80F9F988D414A6A8A65 /* Info.plist */,
+				0AC438EB8335F2DA402EDAE5E71BDF3F /* Pods-LyonPodTestLibrary_Example.modulemap */,
+				D9C15556F8AFB88286A20D80B5006B98 /* Pods-LyonPodTestLibrary_Example-acknowledgements.markdown */,
+				74661B6763926F64BCFCD7327555F92D /* Pods-LyonPodTestLibrary_Example-acknowledgements.plist */,
+				5660C3FBCE41BCDDA8B73EF3009236EE /* Pods-LyonPodTestLibrary_Example-dummy.m */,
+				B4B647529E10BF4B89E1B4DB2B9E3C86 /* Pods-LyonPodTestLibrary_Example-frameworks.sh */,
+				4BF4C69478B179597F862BA5E5535CDE /* Pods-LyonPodTestLibrary_Example-resources.sh */,
+				D955DAC73C2318F6551722036083C039 /* Pods-LyonPodTestLibrary_Example-umbrella.h */,
+				C1989896BB6BBA6DBB72A802BB00DE3A /* Pods-LyonPodTestLibrary_Example.debug.xcconfig */,
+				793A075A7E3314937BB07A5073787BC2 /* Pods-LyonPodTestLibrary_Example.release.xcconfig */,
+			);
+			name = "Pods-LyonPodTestLibrary_Example";
+			path = "Target Support Files/Pods-LyonPodTestLibrary_Example";
+			sourceTree = "<group>";
+		};
+		A99A80724919FFCA78B3BE1EA1F4251C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E775145A872A264EC056423EDED9EFA /* LyonPodTestLibrary */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC302DA56324B52FA05C734C901BDA6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C1ED6A6CE4203DB389F4659FCA1BCCF /* LyonPodTestLibrary.framework */,
+				A75BF288153D28C086D748CA46A0FEE0 /* Pods_LyonPodTestLibrary_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD03BB540E92CD503254167B5E3B071A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8417091199847DAC3F9114D428547F1 /* Info.plist */,
+				602CF6697C8CF84532DBD4AD68ECA5E2 /* LyonPodTestLibrary.modulemap */,
+				D6E2AB83A402B788FD3AA12E38DAF252 /* LyonPodTestLibrary.xcconfig */,
+				D092EE7B429EB0E98F68656B6F06F6FF /* LyonPodTestLibrary-dummy.m */,
+				56B28F21F8F65845B7106CDC2B0118E9 /* LyonPodTestLibrary-prefix.pch */,
+				95508A459A2F77D303A8AFDC06CB1EAC /* LyonPodTestLibrary-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LyonPodTestLibrary";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		517C26AF2E24CF1829462F74CAE1702E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53CEB2F37B292E1640A50A074046C6F4 /* Pods-LyonPodTestLibrary_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69598400113950AF6CF4BC003EDA9DAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E70862250B450C2F0879898EFCD2084 /* LyonPodTestLibrary-umbrella.h in Headers */,
+				4663625F4370C66E5FCF836A787EFC77 /* NSString+SpeakToMe.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		239B757DF46432E3CBDE33ED92D5B797 /* Pods-LyonPodTestLibrary_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D671A119BBD562E23C213572251B2440 /* Build configuration list for PBXNativeTarget "Pods-LyonPodTestLibrary_Example" */;
+			buildPhases = (
+				5B94723AE7AB44B5CB2B417259E9F176 /* Sources */,
+				E8C3A96D947D37D62A675B27640EBE94 /* Frameworks */,
+				517C26AF2E24CF1829462F74CAE1702E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A795B430D571350324B0867BCD9F1471 /* PBXTargetDependency */,
+			);
+			name = "Pods-LyonPodTestLibrary_Example";
+			productName = "Pods-LyonPodTestLibrary_Example";
+			productReference = A75BF288153D28C086D748CA46A0FEE0 /* Pods_LyonPodTestLibrary_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DB2E3BC3A3DDB663136C4504F5BB7FA /* LyonPodTestLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A92436DDF06352F0F07943A30C0999 /* Build configuration list for PBXNativeTarget "LyonPodTestLibrary" */;
+			buildPhases = (
+				24F052D007904685CE6663CA221159DD /* Sources */,
+				3463287A67F2EC4B377533192EA715AA /* Frameworks */,
+				69598400113950AF6CF4BC003EDA9DAA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyonPodTestLibrary;
+			productName = LyonPodTestLibrary;
+			productReference = 2C1ED6A6CE4203DB389F4659FCA1BCCF /* LyonPodTestLibrary.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DC302DA56324B52FA05C734C901BDA6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DB2E3BC3A3DDB663136C4504F5BB7FA /* LyonPodTestLibrary */,
+				239B757DF46432E3CBDE33ED92D5B797 /* Pods-LyonPodTestLibrary_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24F052D007904685CE6663CA221159DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB2D063650E1E709740A07840154F5D8 /* LyonPodTestLibrary-dummy.m in Sources */,
+				FB2BA7A784E27EC397E7CCBD19FA98B2 /* NSString+SpeakToMe.m in Sources */,
+				60CBA942325594222AC098247A1FCD1E /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B94723AE7AB44B5CB2B417259E9F176 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54CEB44D678D9029F52B0672E67A3509 /* Pods-LyonPodTestLibrary_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A795B430D571350324B0867BCD9F1471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LyonPodTestLibrary;
+			target = 5DB2E3BC3A3DDB663136C4504F5BB7FA /* LyonPodTestLibrary */;
+			targetProxy = BF49915B05788837E3253DAE60C5C272 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02B539877B7CEEADF81004978AE7586D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1989896BB6BBA6DBB72A802BB00DE3A /* Pods-LyonPodTestLibrary_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LyonPodTestLibrary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LyonPodTestLibrary_Example/Pods-LyonPodTestLibrary_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LyonPodTestLibrary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		442A7EBA735CD2651DD6754D30131035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E2AB83A402B788FD3AA12E38DAF252 /* LyonPodTestLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LyonPodTestLibrary/LyonPodTestLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LyonPodTestLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LyonPodTestLibrary/LyonPodTestLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LyonPodTestLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7C2A984CB24CDCA840147417F81C53B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E2AB83A402B788FD3AA12E38DAF252 /* LyonPodTestLibrary.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LyonPodTestLibrary/LyonPodTestLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LyonPodTestLibrary/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LyonPodTestLibrary/LyonPodTestLibrary.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LyonPodTestLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7F1DD9B31EFB6423D5CD443A6D96521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 793A075A7E3314937BB07A5073787BC2 /* Pods-LyonPodTestLibrary_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LyonPodTestLibrary_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LyonPodTestLibrary_Example/Pods-LyonPodTestLibrary_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LyonPodTestLibrary_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A92436DDF06352F0F07943A30C0999 /* Build configuration list for PBXNativeTarget "LyonPodTestLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C2A984CB24CDCA840147417F81C53B8 /* Debug */,
+				442A7EBA735CD2651DD6754D30131035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D671A119BBD562E23C213572251B2440 /* Build configuration list for PBXNativeTarget "Pods-LyonPodTestLibrary_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02B539877B7CEEADF81004978AE7586D /* Debug */,
+				C7F1DD9B31EFB6423D5CD443A6D96521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
