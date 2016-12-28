@@ -4,7 +4,7 @@ target 'LyonPodTestLibrary_Example' do
   pod 'LyonPodTestLibrary', :path => '../'
   
   
-  pod 'AFNetworking', '2.3.0'
+  #pod 'AFNetworking', '2.3.0'
 end
  
 post_install do |installer|
