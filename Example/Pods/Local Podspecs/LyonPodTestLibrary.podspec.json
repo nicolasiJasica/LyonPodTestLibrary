@@ -1,6 +1,6 @@
 {
   "name": "LyonPodTestLibrary",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "summary": "A short description of LyonPodTestLibrary.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/nicolasiJasica/LyonPodTestLibrary.git",
@@ -13,12 +13,13 @@
   },
   "source": {
     "git": "https://github.com/nicolasiJasica/LyonPodTestLibrary.git",
-    "tag": "0.1.0"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "LyonPodTestLibrary/Classes/**/*",
+  "vendored_frameworks": "Vendor/staticFramework.framework",
   "public_header_files": "LyonPodTestLibrary/Classes/**/*.h",
   "frameworks": [
     "UIKit",
@@ -27,7 +28,7 @@
   ],
   "dependencies": {
     "AFNetworking": [
-      "~> 2.3"
+
     ]
   }
 }
