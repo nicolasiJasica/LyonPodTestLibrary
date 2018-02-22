@@ -22,7 +22,7 @@ pod "LyonPodTestLibrary"
 
 ## Author
 
-weiliang, weiliangliang@youku.com
+  weiliang, Nicolasi.wei@gmail.com
 
 ## License
 
