@@ -7,11 +7,15 @@
 //
 
 #import "LYAppDelegate.h"
-
+#import <staticFramework/staticFramework.h>
 @implementation LYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    StaticClass* a = [StaticClass new];
+    [a staticMothed];
+    
+    
     // Override point for customization after application launch.
     return YES;
 }
