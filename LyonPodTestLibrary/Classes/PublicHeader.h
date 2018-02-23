@@ -11,8 +11,5 @@
 
 
 #import "NSString+SpeakToMe.h"
-
  
-#import "StaticClass.h"
-
 #endif /* PublicHeader_h */

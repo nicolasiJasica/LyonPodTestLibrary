@@ -11,4 +11,6 @@
 @interface NSString (SpeakToMe)
 
 -(void)SpeakToMe;
+
+-(void)staticMethod;
 @end
