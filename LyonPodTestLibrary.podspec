@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LyonPodTestLibrary'
-  s.version          = '0.1.7'
+  s.version          = '0.1.8'
   s.summary          = 'A short description of LyonPodTestLibrary.'
 
 # This description is used to generate tags and improve search results.
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'LyonPodTestLibrary' => ['LyonPodTestLibrary/Assets/*.png']
   # }
 
-  s.vendored_frameworks = 'Vendor/staticFramework.framework'
+  s.vendored_frameworks = 'Vendor/staticFramework.framework','dynamic/dynamicFramework.framework'
 
   s.public_header_files = 'LyonPodTestLibrary/Classes/**/*.h'
   s.frameworks = 'UIKit', 'CoreGraphics','Foundation'
