@@ -23,6 +23,8 @@
 		7063B317CD5998564AE919DB /* Pods_LyonPodTestLibrary_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8C9DF4259E9372A440A73B /* Pods_LyonPodTestLibrary_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B6DD4B9B203ED48B00769D7B /* staticFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DD4B9A203ED48B00769D7B /* staticFramework.framework */; };
+		B6DD4BD820479A0F00769D7B /* dynamicFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DD4BD620479A0500769D7B /* dynamicFramework.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		B6DD4BD920479A0F00769D7B /* dynamicFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B6DD4BD620479A0500769D7B /* dynamicFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,20 @@
 			remoteInfo = LyonPodTestLibrary;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6DD4BDA20479A1000769D7B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B6DD4BD920479A0F00769D7B /* dynamicFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		550BC8D2DCA16EBEB89F15BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -59,9 +75,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		9E8C9DF4259E9372A440A73B /* Pods_LyonPodTestLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyonPodTestLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A26869A31869126619D81276 /* LyonPodTestLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LyonPodTestLibrary.podspec; path = ../LyonPodTestLibrary.podspec; sourceTree = "<group>"; };
+		A26869A31869126619D81276 /* LyonPodTestLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LyonPodTestLibrary.podspec; path = ../LyonPodTestLibrary.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B0F5C1CCDF400F58C1B6C6AD /* Pods-LyonPodTestLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyonPodTestLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LyonPodTestLibrary_Example/Pods-LyonPodTestLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B6DD4B9A203ED48B00769D7B /* staticFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = staticFramework.framework; sourceTree = "<group>"; };
+		B6DD4BD620479A0500769D7B /* dynamicFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = dynamicFramework.framework; sourceTree = "<group>"; };
 		CBA949EB312E859382E0666E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +91,7 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				7063B317CD5998564AE919DB /* Pods_LyonPodTestLibrary_Example.framework in Frameworks */,
+				B6DD4BD820479A0F00769D7B /* dynamicFramework.framework in Frameworks */,
 				B6DD4B9B203ED48B00769D7B /* staticFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +112,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B6DD4BD620479A0500769D7B /* dynamicFramework.framework */,
 				B6DD4B9A203ED48B00769D7B /* staticFramework.framework */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LyonPodTestLibrary */,
@@ -205,6 +224,7 @@
 				37526F0EB3837BD1680D6A9D /* Copy Pods Resources */,
 				E3DC7F6CFFCD12996F099FDE /* [CP] Embed Pods Frameworks */,
 				D217A3ABB529273A785E78F5 /* [CP] Copy Pods Resources */,
+				B6DD4BDA20479A1000769D7B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -530,6 +550,7 @@
 				GCC_PREFIX_HEADER = "LyonPodTestLibrary/LyonPodTestLibrary-Prefix.pch";
 				INFOPLIST_FILE = "LyonPodTestLibrary/LyonPodTestLibrary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -553,6 +574,7 @@
 				GCC_PREFIX_HEADER = "LyonPodTestLibrary/LyonPodTestLibrary-Prefix.pch";
 				INFOPLIST_FILE = "LyonPodTestLibrary/LyonPodTestLibrary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

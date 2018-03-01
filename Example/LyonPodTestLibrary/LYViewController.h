@@ -10,4 +10,5 @@
 
 @interface LYViewController : UIViewController
 
+@property(nonatomic,strong) IBOutlet UIButton* button;
 @end
